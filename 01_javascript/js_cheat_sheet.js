@@ -135,3 +135,14 @@ const newPerson4 = {
 };
 
 console.log(newPerson4);
+
+// ! Desctructuring
+
+// Easily extract single array elements or object properties and store them in variables
+
+[a, b] = ["Hello", "Max"];
+console.log(a); // 'Hello'
+console.log(b); // 'Max'
+
+// {name} = {name: 'Dave', age: 28}
+// console.log(name)
